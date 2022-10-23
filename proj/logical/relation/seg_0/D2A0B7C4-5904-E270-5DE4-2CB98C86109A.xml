@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="participanti spec angajati FK" directorySegmentName="seg_0" id="D2A0B7C4-5904-E270-5DE4-2CB98C86109A">
+<createdBy>Misu</createdBy>
+<createdTime>2022-06-01 14:09:31 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<engineerTo>
+<item key="2B7CD661-A894-295D-8308-4188E24466F3" value="true"/>
+</engineerTo>
+<sourcePk>890F7DB9-6AD8-B1B5-8F09-A67CBBE97F80</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2E3BDA9A-D58C-8F7B-947F-C6A75DBCF40C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9036BA81-F9A1-8BF6-AC45-B1DDB636D767</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

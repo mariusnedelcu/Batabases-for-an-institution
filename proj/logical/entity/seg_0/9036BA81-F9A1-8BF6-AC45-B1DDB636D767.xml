@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9036BA81-F9A1-8BF6-AC45-B1DDB636D767" name="participanti spec">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-29 23:17:30 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<engineerTo>
+<item key="2B7CD661-A894-295D-8308-4188E24466F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="angajati id angajat" id="C934332C-A01C-BA56-A0C4-283490D06D6A">
+<createdBy>Misu</createdBy>
+<createdTime>2022-06-01 14:09:31 UTC</createdTime>
+<generatorID>D2A0B7C4-5904-E270-5DE4-2CB98C86109A</generatorID>
+<ownerDesignName>proj</ownerDesignName>
+<engineerTo>
+<item key="2B7CD661-A894-295D-8308-4188E24466F3" value="true"/>
+</engineerTo>
+<referedAttribute>61CC36F5-6E57-A2F7-E149-EA1DE2CDDAF8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="detalii spec id spectacol" id="B7BF67B1-2122-942D-FB0F-8713403BD300">
+<createdBy>Misu</createdBy>
+<createdTime>2022-06-01 20:11:49 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<engineerTo>
+<item key="2B7CD661-A894-295D-8308-4188E24466F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

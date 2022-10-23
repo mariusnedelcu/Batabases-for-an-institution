@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="57270BB2-4510-6AA3-F891-37665BF20599" containerWithKeyObject="1D79ED81-092A-E594-4C5D-096268C9DC73" localFKIndex="14B4ED81-D858-3614-8EEB-6F9AB1D8EDA3" name="particip_spec_detalii_spec_FK">
+<createdBy>Misu</createdBy>
+<createdTime>2022-06-01 14:09:45 UTC</createdTime>
+<generatorID>7BDAF47B-15E4-AD3F-538C-6D9D5461116C</generatorID>
+<ownerDesignName>proj</ownerDesignName>
+<referredTableLongName>detalii_spectacole</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7D374050-3003-4376-6B57-2AFBF43D6E0C</referredTableID>
+<keyObject>F5D12FDF-F347-C247-40BD-AD0B5BBB2A1B</keyObject>
+<referredKeyID>F5D12FDF-F347-C247-40BD-AD0B5BBB2A1B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_spectacol</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

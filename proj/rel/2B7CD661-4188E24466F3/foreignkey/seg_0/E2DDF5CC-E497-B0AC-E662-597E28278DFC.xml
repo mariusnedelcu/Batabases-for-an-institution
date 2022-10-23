@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E2DDF5CC-E497-B0AC-E662-597E28278DFC" containerWithKeyObject="1D79ED81-092A-E594-4C5D-096268C9DC73" localFKIndex="FEA226FB-EA11-2C33-089B-0CA1C04B1FFC" name="participanti_spec_angajati_FK">
+<createdBy>Misu</createdBy>
+<createdTime>2022-06-01 14:09:45 UTC</createdTime>
+<generatorID>D2A0B7C4-5904-E270-5DE4-2CB98C86109A</generatorID>
+<ownerDesignName>proj</ownerDesignName>
+<referredTableLongName>angajati</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>752F830B-3131-C7EA-29F2-2241CFD3CF49</referredTableID>
+<keyObject>47A4BC83-E853-83B1-223C-E3D566BB5717</keyObject>
+<referredKeyID>47A4BC83-E853-83B1-223C-E3D566BB5717</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_angajat</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

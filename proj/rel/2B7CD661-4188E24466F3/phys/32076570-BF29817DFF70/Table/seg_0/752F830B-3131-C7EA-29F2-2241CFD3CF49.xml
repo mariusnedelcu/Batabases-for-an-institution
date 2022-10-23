@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="angajati" directorySegmentName="seg_0" id="752F830B-3131-C7EA-29F2-2241CFD3CF49">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 01:05:32 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_angajat" id="4E0521C1-172E-6DA5-2AAF-D03BC6A7AC08">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 01:05:32 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nume" id="B82F3FF2-CEF6-E716-A122-9483EF4D9647">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 01:05:32 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="prenume" id="D0B0F4AB-9212-E53C-CC66-E36B823BD1D7">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 01:05:32 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="angajati_PK" id="47A4BC83-E853-83B1-223C-E3D566BB5717">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 01:05:32 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

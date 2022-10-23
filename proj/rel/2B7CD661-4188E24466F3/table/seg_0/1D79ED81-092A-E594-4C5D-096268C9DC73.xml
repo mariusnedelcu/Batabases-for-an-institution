@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D79ED81-092A-E594-4C5D-096268C9DC73" name="participanti_spec">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 00:40:56 UTC</createdTime>
+<generatorID>9036BA81-F9A1-8BF6-AC45-B1DDB636D767</generatorID>
+<ownerDesignName>proj</ownerDesignName>
+<ordsAlias>spectacole</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="angajati_id_angajat" id="6A82A648-74ED-A780-D5A8-D162CB1115BC">
+<createdBy>Misu</createdBy>
+<createdTime>2022-06-01 14:09:45 UTC</createdTime>
+<generatorID>C934332C-A01C-BA56-A0C4-283490D06D6A</generatorID>
+<ownerDesignName>proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2DDF5CC-E497-B0AC-E662-597E28278DFC" referredColumn="4E0521C1-172E-6DA5-2AAF-D03BC6A7AC08"/>
+</associations>
+</Column>
+<Column name="detalii_spec_id_spectacol" id="D532FA7B-E8B8-242C-C432-2C2692E120A0">
+<createdBy>Misu</createdBy>
+<createdTime>2022-06-01 14:09:45 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57270BB2-4510-6AA3-F891-37665BF20599" referredColumn="03DB4324-4098-5F1F-85C2-B06ACEA8FC09"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FEA226FB-EA11-2C33-089B-0CA1C04B1FFC" name="participanti_spec_angajati_FK">
+<createdBy>Misu</createdBy>
+<createdTime>2022-06-01 14:09:45 UTC</createdTime>
+<generatorID>D2A0B7C4-5904-E270-5DE4-2CB98C86109A</generatorID>
+<ownerDesignName>proj</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A82A648-74ED-A780-D5A8-D162CB1115BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14B4ED81-D858-3614-8EEB-6F9AB1D8EDA3" name="particip_spec_detalii_spec_FK">
+<createdBy>Misu</createdBy>
+<createdTime>2022-06-01 14:09:45 UTC</createdTime>
+<generatorID>7BDAF47B-15E4-AD3F-538C-6D9D5461116C</generatorID>
+<ownerDesignName>proj</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D532FA7B-E8B8-242C-C432-2C2692E120A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2E3BDA9A-D58C-8F7B-947F-C6A75DBCF40C" name="angajati">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-29 23:16:37 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<engineerTo>
+<item key="2B7CD661-A894-295D-8308-4188E24466F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id angajat" id="61CC36F5-6E57-A2F7-E149-EA1DE2CDDAF8">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-29 23:18:07 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<engineerTo>
+<item key="2B7CD661-A894-295D-8308-4188E24466F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nume" id="C8DC21FC-53F4-48FF-FD15-7AA8D2BAA864">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-29 23:18:34 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<engineerTo>
+<item key="2B7CD661-A894-295D-8308-4188E24466F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prenume" id="444072C3-5FDC-4B2C-6101-D6F5877FC500">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-29 23:18:53 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<engineerTo>
+<item key="2B7CD661-A894-295D-8308-4188E24466F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="890F7DB9-6AD8-B1B5-8F09-A67CBBE97F80" name="angajati_PK">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-29 23:18:30 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2B7CD661-A894-295D-8308-4188E24466F3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>61CC36F5-6E57-A2F7-E149-EA1DE2CDDAF8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

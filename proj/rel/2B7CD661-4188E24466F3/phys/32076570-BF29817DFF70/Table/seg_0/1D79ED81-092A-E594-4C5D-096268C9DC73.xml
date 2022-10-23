@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="participanti_spec" directorySegmentName="seg_0" id="1D79ED81-092A-E594-4C5D-096268C9DC73">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 01:05:32 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="angajati_id_angajat" id="6A82A648-74ED-A780-D5A8-D162CB1115BC">
+<createdBy>Misu</createdBy>
+<createdTime>2022-06-01 14:09:45 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="detalii_spec_id_spectacol" id="D532FA7B-E8B8-242C-C432-2C2692E120A0">
+<createdBy>Misu</createdBy>
+<createdTime>2022-06-01 14:09:45 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="particip_spec_detalii_spec_FK" id="14B4ED81-D858-3614-8EEB-6F9AB1D8EDA3">
+<createdBy>Misu</createdBy>
+<createdTime>2022-06-01 14:09:45 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="participanti_spec_angajati_FK" id="FEA226FB-EA11-2C33-089B-0CA1C04B1FFC">
+<createdBy>Misu</createdBy>
+<createdTime>2022-06-01 14:09:45 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

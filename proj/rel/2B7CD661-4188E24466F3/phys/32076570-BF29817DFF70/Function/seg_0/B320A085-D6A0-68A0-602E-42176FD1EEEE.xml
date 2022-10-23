@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FunctionOracle class="oracle.dbtools.crest.model.design.storage.oracle.FunctionOracle" name="salar_count" directorySegmentName="seg_0" id="B320A085-D6A0-68A0-602E-42176FD1EEEE">
+<createdBy>Misu</createdBy>
+<createdTime>2022-06-01 20:24:29 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<source>create or replace NONEDITIONABLE FUNCTION salar_count 
+(
+  SAL IN NUMBER 
+) 
+RETURN NUMBER 
+AS 
+    v_count NUMBER; 
+BEGIN
+  select count(*) 
+  into v_count 
+  from detalii_angajati
+  where salariu = sal; 
+  
+  return v_count; 
+  
+END SALAR_COUNT;</source>
+</FunctionOracle>

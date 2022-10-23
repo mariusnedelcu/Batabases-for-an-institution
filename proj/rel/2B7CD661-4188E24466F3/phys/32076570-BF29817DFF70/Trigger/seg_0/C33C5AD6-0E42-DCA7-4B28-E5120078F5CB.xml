@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="verificare_participanti" directorySegmentName="seg_0" id="C33C5AD6-0E42-DCA7-4B28-E5120078F5CB">
+<createdBy>Misu</createdBy>
+<createdTime>2022-06-01 20:13:05 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[BEGIN
+  if :new.nr_participanti > 11 then
+    RAISE_APPLICATION_ERROR(-20001, 'Numar participanti trebuie sa fie 11');
+    end if;
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<table>7D374050-3003-4376-6B57-2AFBF43D6E0C</table>
+</TriggerOraclev10g>

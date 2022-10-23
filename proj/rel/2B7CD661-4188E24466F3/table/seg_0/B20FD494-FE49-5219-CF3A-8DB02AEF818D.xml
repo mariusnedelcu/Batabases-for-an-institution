@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B20FD494-FE49-5219-CF3A-8DB02AEF818D" name="detalii_angajati">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 00:40:56 UTC</createdTime>
+<generatorID>4BDEF950-A19B-C498-6AD2-A04370331C15</generatorID>
+<ownerDesignName>proj</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="functie_ocupata" id="99FF5466-F3DF-685B-F9B8-9947DE3C2C55">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 00:40:56 UTC</createdTime>
+<generatorID>179432A2-F077-1CE8-8058-0ADA2E45BBF8</generatorID>
+<ownerDesignName>proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salariu" id="A9D1B197-CA44-A6E8-A8B1-D796FF655122">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 00:40:56 UTC</createdTime>
+<generatorID>8BBBE749-65FC-259A-FA9A-EF34762B9A78</generatorID>
+<ownerDesignName>proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_angajare" id="C4BB51EA-5E51-BE4F-5FAE-8476F9E519BB">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 00:40:56 UTC</createdTime>
+<generatorID>7A9AB927-964E-53D0-697D-5E6F0A3C53E3</generatorID>
+<ownerDesignName>proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="angajati_id_angajat" id="0DEBF325-9247-63F6-A8D4-5A72FF8D6972">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 00:40:56 UTC</createdTime>
+<generatorID>0E22D9E8-9340-BC3A-2D83-8510430148C6</generatorID>
+<ownerDesignName>proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B085A7EF-8DB7-F7EE-009A-C4FA6C129689" referredColumn="4E0521C1-172E-6DA5-2AAF-D03BC6A7AC08"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C2CE2D2-B462-4379-F8D4-B975FF6413F3" name="detalii_angajati_PK">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 00:40:56 UTC</createdTime>
+<generatorID>46151522-2660-E827-3173-C43C8D5FCD07</generatorID>
+<ownerDesignName>proj</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DEBF325-9247-63F6-A8D4-5A72FF8D6972"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7231435D-093F-09F1-F1FA-5086EBC4D718" name="detalii_angajati__IDX">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 00:40:56 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0F488246-7DE8-22B1-D17B-38706C6915AB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0DEBF325-9247-63F6-A8D4-5A72FF8D6972"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF7F0170-5279-914E-F96F-95A8C2D17305" name="detalii_angajati_angajati_FK">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 00:40:56 UTC</createdTime>
+<generatorID>0F488246-7DE8-22B1-D17B-38706C6915AB</generatorID>
+<ownerDesignName>proj</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DEBF325-9247-63F6-A8D4-5A72FF8D6972"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

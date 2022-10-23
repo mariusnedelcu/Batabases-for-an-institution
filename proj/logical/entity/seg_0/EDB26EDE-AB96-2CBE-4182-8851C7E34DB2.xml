@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EDB26EDE-AB96-2CBE-4182-8851C7E34DB2" name="detalii spectacole">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-29 23:17:42 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<engineerTo>
+<item key="2B7CD661-A894-295D-8308-4188E24466F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id spectacol" id="5FAF0D58-1C7F-3541-B368-AE36CD088649">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-29 23:28:01 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<engineerTo>
+<item key="2B7CD661-A894-295D-8308-4188E24466F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pret spectacol" id="CC2C4690-1870-540F-EB04-24C531FFCA6F">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-29 23:28:29 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<engineerTo>
+<item key="2B7CD661-A894-295D-8308-4188E24466F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresa" id="36BA078A-6130-444B-733D-706660CBAF18">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-29 23:28:46 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<engineerTo>
+<item key="2B7CD661-A894-295D-8308-4188E24466F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr participanti" id="F63EE3E1-D22D-6D42-6A3F-996C43A67257">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-29 23:29:20 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<engineerTo>
+<item key="2B7CD661-A894-295D-8308-4188E24466F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data spectacol" id="2B957EA3-1287-CEBA-CB89-FC36CC5823C6">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-29 23:30:35 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<engineerTo>
+<item key="2B7CD661-A894-295D-8308-4188E24466F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

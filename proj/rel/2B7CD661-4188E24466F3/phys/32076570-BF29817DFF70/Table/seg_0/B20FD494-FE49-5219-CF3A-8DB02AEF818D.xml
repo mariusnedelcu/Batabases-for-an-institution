@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="detalii_angajati" directorySegmentName="seg_0" id="B20FD494-FE49-5219-CF3A-8DB02AEF818D">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 01:05:32 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="angajati_id_angajat" id="0DEBF325-9247-63F6-A8D4-5A72FF8D6972">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 01:05:32 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="functie_ocupata" id="99FF5466-F3DF-685B-F9B8-9947DE3C2C55">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 01:05:32 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="salariu" id="A9D1B197-CA44-A6E8-A8B1-D796FF655122">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 01:05:32 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="data_angajare" id="C4BB51EA-5E51-BE4F-5FAE-8476F9E519BB">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 01:05:32 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="detalii_angajati__IDX" id="7231435D-093F-09F1-F1FA-5086EBC4D718">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 01:05:32 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="detalii_angajati_angajati_FK" id="DF7F0170-5279-914E-F96F-95A8C2D17305">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 01:05:32 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="detalii_angajati_PK" id="2C2CE2D2-B462-4379-F8D4-B975FF6413F3">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 01:05:32 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

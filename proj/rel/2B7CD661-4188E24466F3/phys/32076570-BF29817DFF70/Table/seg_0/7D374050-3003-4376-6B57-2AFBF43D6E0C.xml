@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="detalii_spectacole" directorySegmentName="seg_0" id="7D374050-3003-4376-6B57-2AFBF43D6E0C">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 01:05:32 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_spectacol" id="03DB4324-4098-5F1F-85C2-B06ACEA8FC09">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 01:05:32 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="data_spectacol" id="07370354-1708-E30B-E7BB-39F94D2E3DA7">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 01:05:32 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nr_participanti" id="8913A228-135E-8A03-00A7-B87B7CEBA34E">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 01:05:32 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="adresa" id="AEE9E0F9-AC98-C236-83E6-E3C3D6F1B776">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 01:05:32 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pret_spectacol" id="CBC449C9-0991-5BF5-1ACC-27C3264A237F">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 01:05:32 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="detalii_spectacole_PK" id="F5D12FDF-F347-C247-40BD-AD0B5BBB2A1B">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 01:05:32 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

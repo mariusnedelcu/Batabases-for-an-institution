@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="spectacol_nou" directorySegmentName="seg_0" id="3E54D535-CD99-2DF1-7FA3-844C8680A705">
+<createdBy>Misu</createdBy>
+<createdTime>2022-06-01 20:25:14 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<source>create or replace NONEDITIONABLE PROCEDURE spectacol_nou 
+(
+  V_ID_ANGAJAT IN NUMBER,
+  V_ID_SPECTACOL IN NUMBER 
+) AS
+
+    -- PL/ SQL 
+    TYPE participanti_spec_table_type IS TABLE OF participanti_spec%ROWTYPE INDEX BY BINARY_INTEGER;
+    participanti_spec_table participanti_spec_table_type;
+    
+    --cursor 
+    cursor c_participanti is select * from participanti_spec;
+
+    --index pentru maparea in tabela a datelor din tabel 
+    v_index NUMBER := 0; 
+    
+BEGIN
+  set transaction read write; 
+  
+    for participant in c_participanti loop
+        participanti_spec_table(v_index) := participant; 
+        v_index := v_index + 1; 
+    end loop;
+    
+    for i in 0..v_index loop 
+        if participanti_spec_table(i).angajati_id_angajat = v_id_angajat then 
+            RAISE_APPLICATION_ERROR(-20002, &apos;Angajatul este deja in acest spectacol!!!&apos;);
+            rollback;
+        end if; 
+    end loop; 
+  
+  insert into participanti_spec values(v_id_angajat, v_id_spectacol);
+  
+  update detalii_angajati 
+  set salariu = salariu + (salariu * 0.02)
+  where angajati_id_angajat = v_id_angajat; 
+  
+      
+  commit; 
+END SPECTACOL_NOU;</source>
+</StoredProcedureOraclev10g>

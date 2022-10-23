@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="particip spec detalii spec FK" directorySegmentName="seg_0" id="7BDAF47B-15E4-AD3F-538C-6D9D5461116C">
+<createdBy>Misu</createdBy>
+<createdTime>2022-06-01 14:09:39 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<engineerTo>
+<item key="2B7CD661-A894-295D-8308-4188E24466F3" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EDB26EDE-AB96-2CBE-4182-8851C7E34DB2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9036BA81-F9A1-8BF6-AC45-B1DDB636D767</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

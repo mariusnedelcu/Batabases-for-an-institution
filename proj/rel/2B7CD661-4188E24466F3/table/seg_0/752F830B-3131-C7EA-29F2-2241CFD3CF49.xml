@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="752F830B-3131-C7EA-29F2-2241CFD3CF49" name="angajati">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 00:40:56 UTC</createdTime>
+<generatorID>2E3BDA9A-D58C-8F7B-947F-C6A75DBCF40C</generatorID>
+<ownerDesignName>proj</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_angajat" id="4E0521C1-172E-6DA5-2AAF-D03BC6A7AC08">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 00:40:56 UTC</createdTime>
+<generatorID>61CC36F5-6E57-A2F7-E149-EA1DE2CDDAF8</generatorID>
+<ownerDesignName>proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nume" id="B82F3FF2-CEF6-E716-A122-9483EF4D9647">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 00:40:56 UTC</createdTime>
+<generatorID>C8DC21FC-53F4-48FF-FD15-7AA8D2BAA864</generatorID>
+<ownerDesignName>proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prenume" id="D0B0F4AB-9212-E53C-CC66-E36B823BD1D7">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 00:40:56 UTC</createdTime>
+<generatorID>444072C3-5FDC-4B2C-6101-D6F5877FC500</generatorID>
+<ownerDesignName>proj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47A4BC83-E853-83B1-223C-E3D566BB5717" name="angajati_PK">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 00:40:56 UTC</createdTime>
+<generatorID>890F7DB9-6AD8-B1B5-8F09-A67CBBE97F80</generatorID>
+<ownerDesignName>proj</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E0521C1-172E-6DA5-2AAF-D03BC6A7AC08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

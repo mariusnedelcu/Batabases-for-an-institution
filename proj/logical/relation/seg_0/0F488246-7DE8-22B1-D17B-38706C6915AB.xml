@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="detalii angajati angajati FK" directorySegmentName="seg_0" id="0F488246-7DE8-22B1-D17B-38706C6915AB">
+<createdBy>Misu</createdBy>
+<createdTime>2022-05-30 00:38:30 UTC</createdTime>
+<ownerDesignName>proj</ownerDesignName>
+<engineerTo>
+<item key="2B7CD661-A894-295D-8308-4188E24466F3" value="true"/>
+</engineerTo>
+<sourcePk>890F7DB9-6AD8-B1B5-8F09-A67CBBE97F80</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2E3BDA9A-D58C-8F7B-947F-C6A75DBCF40C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>4BDEF950-A19B-C498-6AD2-A04370331C15</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
